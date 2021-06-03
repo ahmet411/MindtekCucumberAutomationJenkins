@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression test" verbose="2" parallel="classes" thread-count="10">
+    <test name="test">
+        <classes>
+            <class name="runner.Runner"></class>
+        </classes>
+    </test>
+
+</suite>
