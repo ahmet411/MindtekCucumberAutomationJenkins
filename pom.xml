@@ -57,11 +57,13 @@
 
                 <version>2.22.2</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>runner.xml
-                        </suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
+                    <includes>
+                        <include>
+                            **/*Runner.java
+                        </include>
+                    </includes>
+                 </configuration>
+
             </plugin>
             <plugin>
                 <groupId>net.masterthought</groupId>
